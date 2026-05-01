@@ -1,0 +1,6 @@
+{
+  "name": "Divyam Hospital Premium",
+  "description": "Multi-specialty hospital with premium neumorphic 3D UI, featuring desktop dashboard and mobile native-style app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["3D Rendering", "Neumorphism", "Responsive Design"]
+}

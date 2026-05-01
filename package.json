@@ -1,0 +1,23 @@
+{
+  "name": "divyam-hospital-monorepo",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build:web": "pnpm --filter web build",
+    "build:mobile": "pnpm --filter mobile build",
+    "build:dashboard": "pnpm --filter dashboard build",
+    "build:all": "pnpm --parallel -r build",
+    "seed": "tsx packages/api/seed.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}

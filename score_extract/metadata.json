@@ -1,0 +1,6 @@
+{
+  "name": "Score your video with Lyria",
+  "description": "Upload a video and generate a custom musical bed using Lyria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
