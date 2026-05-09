@@ -1,0 +1,11 @@
+[build]
+  command   = "find node_modules/.bin -type f -exec chmod +x {} + 2>/dev/null; npm run build --workspace=web"
+  publish   = "apps/web/dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
